@@ -30,7 +30,7 @@ html, body{
 	width: 394px;
 	height: 89px;
 	position:absolute;
-	top: 20px;
+	/*top: 20px;¨*/
 	bottom: 13px;
 }
 /*.bin_code{
@@ -49,7 +49,7 @@ html, body{
 	color:#fff;
 	position:absolute;
 	top: 37%;
-	right: 2%;
+	right: 5%;
 }
 .secTitle{
 	text-align: right;
@@ -59,7 +59,7 @@ html, body{
 	font-size: 20px;
 	position:absolute;
 	top: 42%;
-	right: 2%;
+	right: 5%;
 }
 
 /*.menu{
@@ -68,4 +68,119 @@ html, body{
 	font-family: Verdana;
 	color:#fff;
 	float: left;
+}*/
+/*
+@media (max-width: 1920px){
+	body{
+		background-color: #ffaf99;
+	}
+}
+*/
+@media (max-width: 1680px){
+	body{
+		background: url("http://il4.picdn.net/shutterstock/videos/11178932/thumb/1.jpg");
+		/*background: url("http://b-i.forbesimg.com/louiscolumbus/files/2013/04/time-and-IT-competitive-advantage1.jpg");*/
+		background-size: 100% 100%;
+	}
+}
+/*
+@media (max-width: 1600px){
+	body{
+		background-color: #4b0082;
+	}
+}
+@media (max-width: 1440px){
+	body{
+		background-color: #191970;
+	}
+}
+@media (max-width: 1400px){
+	body{
+		background-color: #800080;
+	}
+}
+@media (max-width: 1366px){
+	body{
+		background-color: #8a2be2;
+	}
+}
+@media (max-width: 1280px){
+	body{
+		background-color: #ba55d3;
+	}
+}
+*/
+@media (max-width: 1024px){
+	body{
+		/*background-color: #8b0000;*/
+		background: url("http://dehayf5mhw1h7.cloudfront.net/wp-content/uploads/sites/142/2016/01/29143533/it.jpg");
+		background-size: 100% 100%;
+	}
+}
+
+/* A PARTIR DE AQUI EMPEZAR A DISMINUIIR TAMAÑO DE OBJETOS*/
+@media (max-width: 800px){
+	body{
+		background: url("http://www.ci.brookfield.wi.us/images/pages/N288//ITb.jpg");
+		background-size: 100% 100%;
+	}
+	.mainTitle{font-size: 30px;}
+	.secTitle{font-size: 20px;}
+}
+/*
+@media (max-width: 768px){
+	body{
+		background-color: #ff4500;
+	}
+	
+}
+@media (max-width: 720px){
+	body{
+		background-color: #ff6347;
+	}
+	
+}
+*/
+@media (max-width: 600px){
+	body{
+		/*background-color: #ffa074;*/
+		background: url("http://b-i.forbesimg.com/louiscolumbus/files/2013/04/time-and-IT-competitive-advantage1.jpg");
+		/*background: url("http://il4.picdn.net/shutterstock/videos/11178932/thumb/1.jpg");*/
+		background-size: 100% 100%;
+	}
+	.mainTitle{font-size: 30px;}
+	.secTitle{font-size: 20px;}
+}
+/*
+@media (max-width: 414px){
+	body{
+		background-color: #ffd700;
+	}
+	
+}
+@media (max-width: 384px){
+	body{
+		background-color: #ffff00;
+	}
+
+}
+@media (max-width: 375px){
+	body{
+		background-color: #adff2f;
+	}
+
+}
+*/
+@media (max-width: 360px){
+	body{
+		background: url("http://computerworldmexico.com.mx/wp-content/uploads/2016/04/GreenIT-centro-de-datos-verde-sustentable.jpg");
+		background-size: 100% 100%;
+	}
+
+}
+/*@media (max-width: 320px){
+	body{
+		background-color: #008b8b;
+	}
+
 }*/
